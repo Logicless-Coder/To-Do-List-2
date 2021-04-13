@@ -10,7 +10,7 @@ const TodoItem = ({ index, todo, theme, toggleTodo, deleteTodo }) => {
 			className='todoitem'
 			style={
 				todo.done
-					? { borderColor: theme.accent }
+					? { borderColor: theme.accent, opacity: "0.5" }
 					: { borderColor: theme.header }
 			}>
 			<div onClick={() => toggleTodo(index)} className='icon-box'>
