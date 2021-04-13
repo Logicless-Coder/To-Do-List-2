@@ -18,7 +18,7 @@ const Input = ({ theme, addItem }) => {
 				type='text'
 				value={todo}
 				onChange={(e) => setTodo(e.target.value)}
-				placeholder='What are you upto?'
+				placeholder='Add a todo'
 				style={{
 					background: "none",
 					color: theme.color,
